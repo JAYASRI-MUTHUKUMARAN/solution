@@ -1,0 +1,114 @@
+/* Reset some default margins and padding */
+body, h1, h2, h3, h4, p, ul {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Global body styles */
+body {
+    line-height: 1.6;
+    background-color: #3466a7; /* Light gray for a clean background */
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #71aec0; /* Dark gray for a modern, professional look */
+}
+
+.navbar-brand {
+    color: #0e5342; /* White for the brand name */
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.navbar-brand:hover {
+    color: #2611e0; /* Bright yellow on hover for a striking effect */
+}
+
+.navbar-nav .nav-link {
+    color: #53c4ba; /* Light gray for nav links */
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #1e79b3; /* Matching hover color with the brand */
+}
+
+/* Main content styles */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #162e7e; /* White for a clean content area */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(14, 6, 48, 0.1);
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #28c7bf; /* Dark gray for text */
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #93ecae; /* Slightly lighter gray for subheadings */
+}
+
+.menu-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #061524; /* Very light gray for subtle contrast */
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.menu-item h4 {
+    font-size: 1.25rem;
+    color: #007bff; /* Bright blue for emphasis */
+}
+
+.menu-item p {
+    color: #57b1bd; /* Dark gray for readability */
+    line-height: 1.8;
+    text-align: center;
+}
+
+/* Back to top link */
+.back-to-top {
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+    color: #447fbe; /* Same blue for consistency */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-to-top:hover {
+    color: #1e5085; /* Darker blue on hover */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 0.5rem;
+    }
+
+    .container {
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .menu-item p {
+        font-size: 0.9rem;
+    }
+}
